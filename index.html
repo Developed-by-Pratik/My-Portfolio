@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">        
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <div class="logocontainer">
+                    <img src="./Images/userAsset/NavLogo.jpg" class="logo">
+                    <div class="logotext">ohn Doe</div>
+                </div>
+
+                <div class="navitems">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+            </div>
+
+            <div class="herosection">
+                <div class="fadedtext">John Doe</div>
+                <div class="heroleft">
+                    <div class="heroheading">Hi! John Doe</div>
+                    <div class="heroheading herosubheading">
+                        I am a <span class="role">WEB DEVELOPER</span>
+                    </div>
+                    <div class="herodescription">
+                        I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.
+                    </div>
+                    <div class="btn-pink" id="btn">Hire me</div>
+                </div>
+
+                <div class="heroright">
+                    <div class="imgContainer">
+                        <div class="absolute icons iconDots">
+                          <img src="./images/userAsset/dots.png"/>
+                        </div>
+                        <div class="absolute icons icon-cube">
+                          <img src="./images/userAsset/cube.png"/>
+                        </div>
+                        <div class="absolute icons icon-circle">
+                          <img src="./images/userAsset/circle.png"/>
+                        </div>
+                        <div class="absolute icons iconZigZag">
+                          <img src="./images/userAsset/zigzags.png"/>
+                        </div>
+                        <div class="absolute icons icon-plus">
+                          <img src="./images/userAsset/plus.png"/>
+                        </div>
+                        <div class="">
+                          <div class="userImage">
+                            <!-- <img src="./images/userAsset/priyansh.jpg" width="345px" height="390px"/> -->
+                            <img src="./Images/userAsset/pratik.jpeg" width="345px" height="390px"/>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+          strings: [
+            "Full Stack Developer",
+            "Web Developer",
+            "UI-UX Designer",
+            "Backend Developer",
+            "Coder",
+          ],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1000,
+        });
+    </script>
+</body>
+</html>
