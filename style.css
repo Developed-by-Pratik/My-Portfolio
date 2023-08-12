@@ -684,10 +684,11 @@ a{
 
   .footer-faded-text{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 2%;
+    bottom: 0%;
     color: #535c87;
     font-size: 5em;
+    font-weight: bold;
   }
 
   .link-wrappper{
