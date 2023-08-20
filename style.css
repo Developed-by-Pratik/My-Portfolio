@@ -50,6 +50,19 @@
     padding: 0 4rem;
 }
 
+@media (max-width:991px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 0;
+  }
+  .navitems{
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+}
+
 .navitems div a{
     color: black;
 }
@@ -79,6 +92,30 @@ a{
     margin: 4rem auto;
     padding: 0 1rem;
     padding-bottom: 8rem;
+}
+@media (max-width:991px) {
+  .herosection{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .heroright{
+    display: flex;
+    justify-content: center;
+  }
+  .herosection .userImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .herosection .fadedtext{
+    bottom: -13%;
+    font-size: 4rem;
+    padding-left: 2rem;
+    margin-left: 4rem;
+  }
 }
 
 .fadedtext{
@@ -458,6 +495,32 @@ a{
     background-image: url(./images/projects/Project4.png); 
   }
 
+
+  #resume-para{
+    text-transform: capitalize;
+    line-height: 1.8rem;
+  }
+  .resume-section{
+    position: relative;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+  .resume-container{
+    display: flex;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    margin: 5rem auto;
+    width: 1200px;
+  }
+  .resume-pdf{
+    position: absolute;
+    right: 13%;
+    top: 57%;
+    width: 25%;
+  }
+
+
+
   @media (max-width:1200px) {
     .page-header {
       padding-top: 30px;
@@ -515,9 +578,16 @@ a{
     }
   }
 
+  hr{
+    border: 2px solid lightgray;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+  }
   .skills-container{
     position: relative;
     display: flex;
+    object-fit: cover;
     padding-bottom: 5rem;
     margin: 10rem auto;
     gap: 30px;
